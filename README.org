@@ -1,0 +1,7 @@
+#+TITLE: EmmyLua LanguageServer integration for eglot
+
+#+BEGIN_SRC elisp
+(add-to-list 'load-path "PATH_TO_EGLOT_LUA")
+(require 'eglot-lua)
+#+END_SRC
+
